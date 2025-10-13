@@ -61,3 +61,12 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+###############################################################################
+# Sensitive files - mark as binary and prevent diffs from being shown
+###############################################################################
+Drawing.dxf binary
+LICENSE.txt binary
+dwg_output.json binary
+ontario_building_code_parsed_fromtext.json binary
+validation_results.json binary
