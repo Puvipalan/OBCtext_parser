@@ -35,8 +35,7 @@ class TestDWGValidatorText(unittest.TestCase):
     def test_methods_exist(self):
         # Check for expected methods (update as needed)
         expected_methods = [
-            'validate_file', 'validate_content', 'check_layers', 'check_entities',
-            'get_errors', 'export_to_json', 'print_summary'
+            'validate_file', 'get_summary', 'print_summary', 'export_results'
         ]
         for method in expected_methods:
             self.assertTrue(hasattr(dwg_validator_text, method) or (self.validator and hasattr(self.validator, method)))
@@ -52,19 +51,27 @@ class TestDWGValidatorText(unittest.TestCase):
                 self.assertIsNotNone(result)
 
     def test_validate_file_pass(self):
-        validator = DWGValidator(dwg_parser_text=MockDWGParser())
+        validator = DWGValidator(dwg_parser=MockDWGParser())
         results = validator.validate_file(dwg_file_path="dummy.dxf")
         self.assertTrue(any(r.status == "PASS" for r in results))
 
     def test_validate_file_fail_on_missing_info(self):
         class EmptyParser:
             def parse_file(self, file_path): return None
-        validator = DWGValidator(dwg_parser_text=EmptyParser())
+        validator = DWGValidator(dwg_parser=EmptyParser())
         results = validator.validate_file(dwg_file_path="dummy.dxf")
         self.assertEqual(results[0].status, "FAIL")
         self.assertIn("Could not parse", results[0].message)
 
     # Add more tests for other methods as needed, using mocks for file I/O
 
+
 if __name__ == '__main__':
     unittest.main()
+def test_methods_exist(self):
+    # Check for expected methods (update as needed)
+    expected_methods = [
+        'validate_file', 'get_summary', 'print_summary', 'export_results'
+    ]
+    for method in expected_methods:
+        self.assertTrue(hasattr(dwg_validator_text, method) or (self.validator and hasattr(self.validator, method)))

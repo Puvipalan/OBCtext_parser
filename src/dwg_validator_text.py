@@ -9,12 +9,15 @@ import logging
 import json
 import os
 
-from dwg_parser_text import DWGParser, DrawingInfo, LayerInfo, EntityInfo
-from building_code_parser_text import OntarioBuildingCodeParserfromtext
+from .dwg_parser_text import DWGParser, DrawingInfo, LayerInfo, EntityInfo
+from .building_code_parser_text import OntarioBuildingCodeParserfromtext
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("DWGValidator")
+
+print("DWGParser import successful:", DWGParser)
+print("OntarioBuildingCodeParserfromtext import successful:", OntarioBuildingCodeParserfromtext)
 
 @dataclass
 class ValidationResult:

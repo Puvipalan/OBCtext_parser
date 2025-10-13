@@ -7,14 +7,14 @@ Handles Division, Part, Section, Article, Subarticle, and Clauses structure
 import re
 import json
 from typing import Dict, List, Any, Optional
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 
 @dataclass
 class Clause:
     """Represents a clause within a subarticle"""
     number: str  # e.g., "1)", "2)", "a)", "b)", "i)", "ii)"
     content: str
-    sub_clauses: List['Clause'] = None
+    sub_clauses: list['Clause'] = field(default_factory=list)
 
 @dataclass
 class Subarticle:
@@ -22,7 +22,7 @@ class Subarticle:
     number: str  # e.g., "9.1.1.1"
     title: str
     content: str
-    clauses: List[Clause] = None
+    clauses: list[Clause] = field(default_factory=list)
 
 @dataclass
 class Article:
@@ -30,7 +30,7 @@ class Article:
     number: str  # e.g., "9.1.1"
     title: str
     content: str
-    subarticles: List[Subarticle] = None
+    subarticles: list[Subarticle] = field(default_factory=list)
 
 @dataclass
 class Section:
@@ -38,7 +38,7 @@ class Section:
     number: str  # e.g., "9.1"
     title: str
     content: str
-    articles: List[Article] = None
+    articles: list[Article] = field(default_factory=list)
 
 @dataclass
 class Part:
@@ -46,14 +46,14 @@ class Part:
     number: str  # e.g., "9"
     title: str
     content: str
-    sections: List[Section] = None
+    sections: list[Section] = field(default_factory=list)
 
 @dataclass
 class Division:
     """Represents a division of the building code"""
     letter: str  # e.g., "A", "B", "C"
     content: str
-    parts: List[Part] = None
+    parts: list[Part] = field(default_factory=list)
 
 @dataclass
 class BuildingCodeStructure:

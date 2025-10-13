@@ -10,9 +10,9 @@ import json
 from typing import Optional
 import threading
 
-from building_code_parser_text import OntarioBuildingCodeParserfromtext
-from dwg_parser_text import DWGParser
-from dwg_validator_text import DWGValidator
+from .building_code_parser_text import OntarioBuildingCodeParserfromtext
+from .dwg_parser_text import DWGParser
+from .dwg_validator_text import DWGValidator
 
 class BuildingCodeDWGApp:
     """Main application class"""
@@ -400,7 +400,7 @@ class BuildingCodeDWGApp:
         self.building_code_var.set("")
         self.dwg_file_var.set("")
         
-        self.building_code_parser = OntarioBuildingCodeParser()
+        self.building_code_parser = OntarioBuildingCodeParserfromtext()
         self.dwg_parser = DWGParser()
         self.validator = DWGValidator()
         

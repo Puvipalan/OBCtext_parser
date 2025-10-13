@@ -1,6 +1,7 @@
 import unittest
 from unittest.mock import patch, mock_open
 from src.building_code_parser_text import OntarioBuildingCodeParserfromtext, BuildingCodeStructure, Section
+import textwrap
 
 class TestOntarioBuildingCodeParserfromtext(unittest.TestCase):
     def setUp(self):
@@ -33,6 +34,24 @@ Title of Subarticle 2.1.1.1
         structure = self.parser.parse_content(self.sample_content)
         self.assertIsInstance(structure, BuildingCodeStructure)
         self.assertEqual(len(structure.divisions), 2)
+
+    def test_parse_content_structure(self):
+        content = textwrap.dedent('''
+        Division A
+        Part 1
+        Title of Part 1
+        Section 1.1
+        Title of Section 1.1
+        1.1.1
+        Title of Article 1.1.1
+        1.1.1.1
+        Title of Subarticle 1.1.1.1
+        1) Clause one.
+        ''')
+        structure = self.parser.parse_content(content)
+        self.assertEqual(len(structure.divisions), 1)
+        self.assertEqual(structure.divisions[0].letter, 'A')
+        self.assertEqual(structure.divisions[0].parts[0].number, '1')
 
     @patch("builtins.open", new_callable=mock_open, read_data="Division A\nPart 1\nTitle\nSection 1.1\nTitle\n1.1.1\nTitle\n1.1.1.1\nTitle\n1) Clause\n")
     def test_parse_file(self, mock_file):

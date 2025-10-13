@@ -204,7 +204,7 @@ class DWGParser:
     def _extract_dimension_value(self, dim_entity) -> float:
         """Extract numeric value from dimension"""
         try:
-            text = dim_entity.dxf.text
+            text = dim_entity.dfx.text
             # Try to extract numeric value from dimension text
             import re
             numbers = re.findall(r'[\d.]+', text)
@@ -301,8 +301,8 @@ class DWGParser:
         return measurements
     
     def get_measurements(self) -> List[Dict[str, Any]]:
-        """Get all measurements from the drawing"""
-        return self.measurements
+        """Get all measurements from the drawing."""
+        return self.measurements if self.measurements is not None else []
     
     def export_to_json(self, output_path: str):
         """Export drawing information to JSON"""
@@ -359,7 +359,74 @@ class DWGParser:
         print(f"Text entities: {len(self.drawing_info.text_entities)}")
         print(f"Blocks: {len(self.drawing_info.blocks)}")
         print(f"Measurements: {len(self.measurements)}")
+    
+    def get_entities_by_layer(self, layer_name: str) -> List[EntityInfo]:
+        """Return all entities belonging to a specific layer."""
+        if not self.drawing_info or not self.drawing_info.entities:
+            return []
+        return [entity for entity in self.drawing_info.entities if entity.layer == layer_name]
 
+    def get_entities_by_type(self, entity_type: str) -> List[EntityInfo]:
+        """Return all entities of a specific type."""
+        if not self.drawing_info or not self.drawing_info.entities:
+            return []
+        return [entity for entity in self.drawing_info.entities if entity.entity_type == entity_type]
+
+    def extract_layers(self) -> List[LayerInfo]:
+        """Return the list of layers in the drawing."""
+        if self.drawing_info and self.drawing_info.layers:
+            return self.drawing_info.layers
+        return []
+
+    def extract_entities(self) -> List[EntityInfo]:
+        """Return the list of entities in the drawing."""
+        if self.drawing_info and self.drawing_info.entities:
+            return self.drawing_info.entities
+        return []
+
+    def extract_dimensions(self) -> List[Dict[str, Any]]:
+        """Return the list of dimensions in the drawing."""
+        if self.drawing_info and self.drawing_info.dimensions:
+            return self.drawing_info.dimensions
+        return []
+
+    def extract_text_entities(self) -> List[Dict[str, Any]]:
+        """Return the list of text entities in the drawing."""
+        if self.drawing_info and self.drawing_info.text_entities:
+            return self.drawing_info.text_entities
+        return []
+
+    def get_blocks(self) -> List[Dict[str, Any]]:
+        """Return the list of blocks in the drawing."""
+        if self.drawing_info and self.drawing_info.blocks:
+            return self.drawing_info.blocks
+        return []
+
+    def _get_info_list(self, attr: str):
+        """Helper to safely get a list attribute from drawing_info."""
+        if self.drawing_info and getattr(self.drawing_info, attr, None):
+            return getattr(self.drawing_info, attr)
+        return []
+
+    def get_entities(self) -> List[EntityInfo]:
+        """Return the list of entities in the drawing."""
+        return self._get_info_list('entities')
+
+    def get_layers(self) -> List[LayerInfo]:
+        """Return the list of layers in the drawing."""
+        return self._get_info_list('layers')
+
+    def get_dimensions(self) -> List[Dict[str, Any]]:
+        """Return the list of dimensions in the drawing."""
+        return self._get_info_list('dimensions')
+
+    def get_text_entities(self) -> List[Dict[str, Any]]:
+        """Return the list of text entities in the drawing."""
+        return self._get_info_list('text_entities')
+
+    def get_blocks(self) -> List[Dict[str, Any]]:
+        """Return the list of blocks in the drawing."""
+        return self._get_info_list('blocks')
 if __name__ == "__main__":
     import sys
     parser = DWGParser()
