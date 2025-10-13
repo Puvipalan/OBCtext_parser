@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Sensitive files - contains proprietary or confidential information
+Drawing.dxf
+LICENSE.txt
+dwg_output.json
+ontario_building_code_parsed_fromtext.json
+validation_results.json
