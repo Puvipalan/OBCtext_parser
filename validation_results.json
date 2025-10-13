@@ -1,0 +1,110 @@
+[
+  {
+    "check_name": "Drawing Units",
+    "status": "PASS",
+    "message": "Drawing units (inches) are appropriate for building drawings",
+    "details": {
+      "units": "inches"
+    }
+  },
+  {
+    "check_name": "Layer Standards",
+    "status": "WARNING",
+    "message": "Layers present but may not follow standard naming conventions",
+    "details": {
+      "layer_count": 28,
+      "has_standard_layers": false,
+      "layer_names": [
+        "0",
+        "plan",
+        "wind",
+        "dim",
+        "text",
+        "shead",
+        "step",
+        "Defpoints",
+        "cabnit",
+        "door"
+      ]
+    }
+  },
+  {
+    "check_name": "Dimension Completeness",
+    "status": "PASS",
+    "message": "Drawing has adequate dimensions (42 total)",
+    "details": {
+      "dimension_count": 22,
+      "text_count": 94,
+      "measurement_texts": [
+        "NEW WINDOW 42\"X42\"",
+        " PROPOSED BASEMENT AREA 94.7m [1019 sqft]",
+        "WOOD LINTEL 58\"(2x1 1/2\"x9 1/2\")",
+        "STEEL LINTEL 3 1/2\"x3 1/2\"x 1/4\" L ANGLE",
+        "24\"x78\""
+      ],
+      "total_measurements": 42
+    }
+  },
+  {
+    "check_name": "Text Readability",
+    "status": "PASS",
+    "message": "Text appears to be readable (min height: 3.000)",
+    "details": {
+      "text_count": 94,
+      "heights": [
+        15.0,
+        15.0,
+        15.0,
+        15.0,
+        10.0,
+        18.0,
+        10.0,
+        6.0,
+        8.0,
+        12.0
+      ],
+      "min_height": 3.0,
+      "max_height": 18.0,
+      "avg_height": 6.945528617852394
+    }
+  },
+  {
+    "check_name": "Scale Consistency",
+    "status": "WARNING",
+    "message": "Insufficient measurements to check scale consistency",
+    "details": {
+      "measurement_count": 0
+    }
+  },
+  {
+    "check_name": "Entity Organization",
+    "status": "PASS",
+    "message": "Good entity organization (14 types, 1482 total)",
+    "details": {
+      "total_entities": 1482,
+      "unique_types": 14,
+      "entity_types": {
+        "TEXT": 94,
+        "HATCH": 51,
+        "CIRCLE": 11,
+        "LINE": 311,
+        "MTEXT": 16,
+        "LWPOLYLINE": 733,
+        "SOLID": 218,
+        "INSERT": 4,
+        "DIMENSION": 22,
+        "LEADER": 2,
+        "ARC": 4,
+        "MULTILEADER": 2,
+        "SPLINE": 10,
+        "ELLIPSE": 4
+      }
+    }
+  },
+  {
+    "check_name": "Building Code Compliance",
+    "status": "WARNING",
+    "message": "No building code structure available for comparison",
+    "details": {}
+  }
+]

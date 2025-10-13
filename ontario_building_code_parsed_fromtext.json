@@ -1,0 +1,168 @@
+{
+  "structure": {
+    "divisions": [
+      {
+        "letter": "B",
+        "content": "Part 9\nHousing and Small Buildings\n\n\n\nSection 9.1.\tGeneral\n\n9.1.1. Application\n9.1.1.1. Application\n   1) The application of this Part shall be as described in Subsection 1.3.3. of Division A. (See Note A-9.1.1.1.(1) regarding application to seasonally and intermittently occupied buildings.)\n\n9.1.2. Limits on Floor Area\n9.1.2.1. Floor Area Limits for Secondary Suites\n   1) The total floor area of all storeys of a secondary suite shall be not more than the lesser of\na) 80% of the total floor area of all storeys of the other dwelling unit, excluding the garage floor area and common spaces serving both dwelling units, and\nb) 80 m2.\n\nSection 9.2.\tDefinitions\n\n9.2.1. General\n9.2.1.1. Defined Words\n1) Words in italics are defined in Article 1.4.1.2. of Division A.\n\nSection 9.3.\tMaterials, Systems and Equipment\n\n9.3.1. Concrete\n9.3.1.1. General\n   1) Except as provided in Sentence (2) and Articles 9.3.1.6. and 9.3.1.7., unreinforced and nominally reinforced concrete shall be designed, mixed, placed, cured and tested in accordance with the requirements for \"R\" class concrete stated in Section 9 of CSA A23.l, \"Concrete materials and methods of concrete construction.\"\n  2) Unreinforced and nominally reinforced site-batched concrete shall be designed, mixed, placed and cured in accordance with Articles 9.3.1.2. to 9.3.1.9.\n   3) Except as provided in Sentence (4), reinforced concrete shall be designed to conform to the requirements of Part 4.\n\n9.3.1.2. Division B\n\n  4) For flat insulating concrete form walls not exceeding 2 storeys in building height and having a maximum floor to floor height of 3 m, in buildings of light-frame construction, the concrete and reinforcing shall comply with Part 4 or\na) the concrete shall conform to CSA A23.l, \"Concrete materials and methods of concrete construction,\" with a maximum aggregate size of 19 mm, and\nb) the reinforcing shall\ni) conform to CSA G30.18, \"Carbon steel bars for concrete reinforcement,\"\nii) have a minimum specified yield strength of 400 MPa, and\niii) be lapped a minimum of 450 mm for lOM bars and 650 mm for 15M bars (see also Articles 9.15.4.5. and 9.20.17.2.\nto 9.20.17.4.).\n\n9.3.1.2. Cement\n   1) Cement shall meet the requirements of CSA A3001, \"Cementitious Materials for Use in Concrete.\"\n\n9.3.1.3. Concrete in Contact with Sulphate Soil\n   1) Concrete in contact with sulphate soil, which is deleterious to normal cement, shall conform to the requirements in Clause 4.1.1.6 of CSA A23.l, \"Concrete materials and methods of concrete construction.\"\n\n9.3.1.4. Aggregates\n1) Aggregates shall\na) consist of sand, gravel, crushed rock, crushed air-cooled blast furnace slag, expanded shale or expanded clay conforming to CSA A23.1, \"Concrete materials and methods of concrete construction,\" and\nb) be clean, well-graded and free of injurious amounts of organic and other deleterious material.\n\n9.3.1.5. Water\n   1) Water shall be clean and free of injurious amounts of oil, organic matter, sediment or any other deleterious material.\n\n9.3.1.6. Compressive Strength\n(See also Article 9.12.4.1., Sentence 9.15.4.2.(1) and Article 9.18.6.1.)\n   1) Except as provided elsewhere in this Part, the compressive strength of unreinforced concrete after 28 days shall be not less than\na) 15 MPa for walls, columns, fireplaces and chimneys, footings, foundation\nwalls, grade beams and piers,\nb) 20 MPa for floors other than those in garages and carports, and\nc) for garage and carport floors, and the exterior steps,\ni) 32 MPa, or\nii) 30 MPa where indigenous aggregates do not achieve 32 MPa with a 0.45 water to cementing material ratio.\n   2) Site-batched concrete used for garage and carport floors and exterior steps shall have air entrainment of 5 to 8%.\n\n9.3.1.7. Concrete Mixes\n(See Note A-9.3.1.7.)\n   1) For pre-mixed concrete and for the site-batched concrete mixes described in Table 9.3.1.7., the maximum ratio of water to cementing materials measured by weight shall not exceed\na) 0.70 for walls, columns, fireplaces and chimneys, footings, foundation walls, grade beams and piers,\nb) 0.65 for floors other than those in garages and carports, and\nc) 0.45 for garage and carport floors, and exterior steps.",
+        "parts": [
+          {
+            "number": "9",
+            "title": "Housing and Small Buildings",
+            "content": "Section 9.1.\tGeneral\n\n9.1.1. Application\n9.1.1.1. Application\n   1) The application of this Part shall be as described in Subsection 1.3.3. of Division A. (See Note A-9.1.1.1.(1) regarding application to seasonally and intermittently occupied buildings.)\n\n9.1.2. Limits on Floor Area\n9.1.2.1. Floor Area Limits for Secondary Suites\n   1) The total floor area of all storeys of a secondary suite shall be not more than the lesser of\na) 80% of the total floor area of all storeys of the other dwelling unit, excluding the garage floor area and common spaces serving both dwelling units, and\nb) 80 m2.\n\nSection 9.2.\tDefinitions\n\n9.2.1. General\n9.2.1.1. Defined Words\n1) Words in italics are defined in Article 1.4.1.2. of Division A.\n\nSection 9.3.\tMaterials, Systems and Equipment\n\n9.3.1. Concrete\n9.3.1.1. General\n   1) Except as provided in Sentence (2) and Articles 9.3.1.6. and 9.3.1.7., unreinforced and nominally reinforced concrete shall be designed, mixed, placed, cured and tested in accordance with the requirements for \"R\" class concrete stated in Section 9 of CSA A23.l, \"Concrete materials and methods of concrete construction.\"\n  2) Unreinforced and nominally reinforced site-batched concrete shall be designed, mixed, placed and cured in accordance with Articles 9.3.1.2. to 9.3.1.9.\n   3) Except as provided in Sentence (4), reinforced concrete shall be designed to conform to the requirements of Part 4.\n\n9.3.1.2. Division B\n\n  4) For flat insulating concrete form walls not exceeding 2 storeys in building height and having a maximum floor to floor height of 3 m, in buildings of light-frame construction, the concrete and reinforcing shall comply with Part 4 or\na) the concrete shall conform to CSA A23.l, \"Concrete materials and methods of concrete construction,\" with a maximum aggregate size of 19 mm, and\nb) the reinforcing shall\ni) conform to CSA G30.18, \"Carbon steel bars for concrete reinforcement,\"\nii) have a minimum specified yield strength of 400 MPa, and\niii) be lapped a minimum of 450 mm for lOM bars and 650 mm for 15M bars (see also Articles 9.15.4.5. and 9.20.17.2.\nto 9.20.17.4.).\n\n9.3.1.2. Cement\n   1) Cement shall meet the requirements of CSA A3001, \"Cementitious Materials for Use in Concrete.\"\n\n9.3.1.3. Concrete in Contact with Sulphate Soil\n   1) Concrete in contact with sulphate soil, which is deleterious to normal cement, shall conform to the requirements in Clause 4.1.1.6 of CSA A23.l, \"Concrete materials and methods of concrete construction.\"\n\n9.3.1.4. Aggregates\n1) Aggregates shall\na) consist of sand, gravel, crushed rock, crushed air-cooled blast furnace slag, expanded shale or expanded clay conforming to CSA A23.1, \"Concrete materials and methods of concrete construction,\" and\nb) be clean, well-graded and free of injurious amounts of organic and other deleterious material.\n\n9.3.1.5. Water\n   1) Water shall be clean and free of injurious amounts of oil, organic matter, sediment or any other deleterious material.\n\n9.3.1.6. Compressive Strength\n(See also Article 9.12.4.1., Sentence 9.15.4.2.(1) and Article 9.18.6.1.)\n   1) Except as provided elsewhere in this Part, the compressive strength of unreinforced concrete after 28 days shall be not less than\na) 15 MPa for walls, columns, fireplaces and chimneys, footings, foundation\nwalls, grade beams and piers,\nb) 20 MPa for floors other than those in garages and carports, and\nc) for garage and carport floors, and the exterior steps,\ni) 32 MPa, or\nii) 30 MPa where indigenous aggregates do not achieve 32 MPa with a 0.45 water to cementing material ratio.\n   2) Site-batched concrete used for garage and carport floors and exterior steps shall have air entrainment of 5 to 8%.\n\n9.3.1.7. Concrete Mixes\n(See Note A-9.3.1.7.)\n   1) For pre-mixed concrete and for the site-batched concrete mixes described in Table 9.3.1.7., the maximum ratio of water to cementing materials measured by weight shall not exceed\na) 0.70 for walls, columns, fireplaces and chimneys, footings, foundation walls, grade beams and piers,\nb) 0.65 for floors other than those in garages and carports, and\nc) 0.45 for garage and carport floors, and exterior steps.",
+            "sections": []
+          }
+        ]
+      }
+    ],
+    "measurements": [
+      {
+        "value": 3.0,
+        "unit": "unknown",
+        "context": "form walls not exceeding 2 storeys in building height and having a maximum floor to floor height of 3 m, in buildings of light-frame construction, the concrete and reinforcing shall comply with Part 4 or",
+        "full_match": "3 m"
+      },
+      {
+        "value": 19.0,
+        "unit": "millimeters",
+        "context": "A23.l, \"Concrete materials and methods of concrete construction,\" with a maximum aggregate size of 19 mm, and\nb) the reinforcing shall\ni) conform to CSA G30.18, \"Carbon steel bars for concrete reinforceme",
+        "full_match": "19 mm"
+      },
+      {
+        "value": 400.0,
+        "unit": "megapascals",
+        "context": ".18, \"Carbon steel bars for concrete reinforcement,\"\nii) have a minimum specified yield strength of 400 MPa, and\niii) be lapped a minimum of 450 mm for lOM bars and 650 mm for 15M bars (see also Articles 9.1",
+        "full_match": "400 MPa"
+      },
+      {
+        "value": 450.0,
+        "unit": "millimeters",
+        "context": "forcement,\"\nii) have a minimum specified yield strength of 400 MPa, and\niii) be lapped a minimum of 450 mm for lOM bars and 650 mm for 15M bars (see also Articles 9.15.4.5. and 9.20.17.2.\nto 9.20.17.4.).\n\n9",
+        "full_match": "450 mm"
+      },
+      {
+        "value": 650.0,
+        "unit": "millimeters",
+        "context": "inimum specified yield strength of 400 MPa, and\niii) be lapped a minimum of 450 mm for lOM bars and 650 mm for 15M bars (see also Articles 9.15.4.5. and 9.20.17.2.\nto 9.20.17.4.).\n\n9.3.1.2. Cement\n   1) Cem",
+        "full_match": "650 mm"
+      },
+      {
+        "value": 15.0,
+        "unit": "unknown",
+        "context": "ified yield strength of 400 MPa, and\niii) be lapped a minimum of 450 mm for lOM bars and 650 mm for 15M bars (see also Articles 9.15.4.5. and 9.20.17.2.\nto 9.20.17.4.).\n\n9.3.1.2. Cement\n   1) Cement shal",
+        "full_match": "15M"
+      },
+      {
+        "value": 15.0,
+        "unit": "megapascals",
+        "context": "his Part, the compressive strength of unreinforced concrete after 28 days shall be not less than\na) 15 MPa for walls, columns, fireplaces and chimneys, footings, foundation\nwalls, grade beams and piers,\nb)",
+        "full_match": "15 MPa"
+      },
+      {
+        "value": 20.0,
+        "unit": "megapascals",
+        "context": "for walls, columns, fireplaces and chimneys, footings, foundation\nwalls, grade beams and piers,\nb) 20 MPa for floors other than those in garages and carports, and\nc) for garage and carport floors, and the",
+        "full_match": "20 MPa"
+      },
+      {
+        "value": 32.0,
+        "unit": "megapascals",
+        "context": "han those in garages and carports, and\nc) for garage and carport floors, and the exterior steps,\ni) 32 MPa, or\nii) 30 MPa where indigenous aggregates do not achieve 32 MPa with a 0.45 water to cementing mat",
+        "full_match": "32 MPa"
+      },
+      {
+        "value": 30.0,
+        "unit": "megapascals",
+        "context": "rages and carports, and\nc) for garage and carport floors, and the exterior steps,\ni) 32 MPa, or\nii) 30 MPa where indigenous aggregates do not achieve 32 MPa with a 0.45 water to cementing material ratio.",
+        "full_match": "30 MPa"
+      },
+      {
+        "value": 32.0,
+        "unit": "megapascals",
+        "context": "floors, and the exterior steps,\ni) 32 MPa, or\nii) 30 MPa where indigenous aggregates do not achieve 32 MPa with a 0.45 water to cementing material ratio.\n   2) Site-batched concrete used for garage and carp",
+        "full_match": "32 MPa"
+      },
+      {
+        "value": 400.0,
+        "unit": "megapascals",
+        "context": ".18, \"Carbon steel bars for concrete reinforcement,\"\nii) have a minimum specified yield strength of 400 MPa, and\niii) be lapped a minimum of 450 mm for lOM bars and 650 mm for 15M bars (see also Articles 9.1",
+        "full_match": "400 MPa"
+      },
+      {
+        "value": 15.0,
+        "unit": "megapascals",
+        "context": "his Part, the compressive strength of unreinforced concrete after 28 days shall be not less than\na) 15 MPa for walls, columns, fireplaces and chimneys, footings, foundation\nwalls, grade beams and piers,\nb)",
+        "full_match": "15 MPa"
+      },
+      {
+        "value": 20.0,
+        "unit": "megapascals",
+        "context": "for walls, columns, fireplaces and chimneys, footings, foundation\nwalls, grade beams and piers,\nb) 20 MPa for floors other than those in garages and carports, and\nc) for garage and carport floors, and the",
+        "full_match": "20 MPa"
+      },
+      {
+        "value": 32.0,
+        "unit": "megapascals",
+        "context": "han those in garages and carports, and\nc) for garage and carport floors, and the exterior steps,\ni) 32 MPa, or\nii) 30 MPa where indigenous aggregates do not achieve 32 MPa with a 0.45 water to cementing mat",
+        "full_match": "32 MPa"
+      },
+      {
+        "value": 30.0,
+        "unit": "megapascals",
+        "context": "rages and carports, and\nc) for garage and carport floors, and the exterior steps,\ni) 32 MPa, or\nii) 30 MPa where indigenous aggregates do not achieve 32 MPa with a 0.45 water to cementing material ratio.",
+        "full_match": "30 MPa"
+      },
+      {
+        "value": 32.0,
+        "unit": "megapascals",
+        "context": "floors, and the exterior steps,\ni) 32 MPa, or\nii) 30 MPa where indigenous aggregates do not achieve 32 MPa with a 0.45 water to cementing material ratio.\n   2) Site-batched concrete used for garage and carp",
+        "full_match": "32 MPa"
+      },
+      {
+        "value": 19.0,
+        "unit": "millimeters",
+        "context": "A23.l, \"Concrete materials and methods of concrete construction,\" with a maximum aggregate size of 19 mm, and\nb) the reinforcing shall\ni) conform to CSA G30.18, \"Carbon steel bars for concrete reinforceme",
+        "full_match": "19 mm"
+      },
+      {
+        "value": 450.0,
+        "unit": "millimeters",
+        "context": "forcement,\"\nii) have a minimum specified yield strength of 400 MPa, and\niii) be lapped a minimum of 450 mm for lOM bars and 650 mm for 15M bars (see also Articles 9.15.4.5. and 9.20.17.2.\nto 9.20.17.4.).\n\n9",
+        "full_match": "450 mm"
+      },
+      {
+        "value": 650.0,
+        "unit": "millimeters",
+        "context": "inimum specified yield strength of 400 MPa, and\niii) be lapped a minimum of 450 mm for lOM bars and 650 mm for 15M bars (see also Articles 9.15.4.5. and 9.20.17.2.\nto 9.20.17.4.).\n\n9.3.1.2. Cement\n   1) Cem",
+        "full_match": "650 mm"
+      }
+    ],
+    "requirements": [
+      "shall be as described in Subsection 1.",
+      "shall be not more than the lesser of\na) 80% of the total floor area of all storeys of the other dwelling unit, excluding the garage floor area and common spaces serving both dwelling units, and\nb) 80 m2.",
+      "shall be designed, mixed, placed, cured and tested in accordance with the requirements for \"R\" class concrete stated in Section 9 of CSA A23.",
+      "shall be designed, mixed, placed and cured in accordance with Articles 9.",
+      "shall be designed to conform to the requirements of Part 4.",
+      "shall comply with Part 4 or\na) the concrete shall conform to CSA A23.",
+      "shall\ni) conform to CSA G30.",
+      "shall meet the requirements of CSA A3001, \"Cementitious Materials for Use in Concrete.",
+      "shall conform to the requirements in Clause 4.",
+      "shall\na) consist of sand, gravel, crushed rock, crushed air-cooled blast furnace slag, expanded shale or expanded clay conforming to CSA A23.",
+      "shall be clean and free of injurious amounts of oil, organic matter, sediment or any other deleterious material.",
+      "shall be not less than\na) 15 MPa for walls, columns, fireplaces and chimneys, footings, foundation\nwalls, grade beams and piers,\nb) 20 MPa for floors other than those in garages and carports, and\nc) for garage and carport floors, and the exterior steps,\ni) 32 MPa, or\nii) 30 MPa where indigenous aggregates do not achieve 32 MPa with a 0.",
+      "shall have air entrainment of 5 to 8%.",
+      "shall not exceed\na) 0.",
+      "conform to the requirements of Part 4.",
+      "conform to CSA A23.",
+      "conform to CSA G30.",
+      "conform to the requirements in Clause 4.",
+      "comply with Part 4 or\na) the concrete shall conform to CSA A23."
+    ]
+  },
+  "summary": {
+    "total_divisions": 1,
+    "total_parts": 1,
+    "total_sections": 0,
+    "total_measurements": 20,
+    "total_requirements": 19
+  }
+}
