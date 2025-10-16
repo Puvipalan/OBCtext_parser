@@ -462,13 +462,13 @@ if __name__ == "__main__":
     parser = OntarioBuildingCodeParserfromtext()
     
     # Parse the example building code file
-    structure = parser.parse_file("section_building_code.txt")
+    structure = parser.parse_file("Part9_Small_Building.txt")
     
     if structure:
         parser.print_summary()
         
         # Export to JSON
-        parser.export_to_json("section_building_code_parsed_fromtext.json")
+        parser.export_to_json("Part9_Small_Building_text.json")
         
         # Example queries
         print("\nExample queries:")
